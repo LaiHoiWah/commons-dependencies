@@ -1,2 +1,2 @@
-# commons-pom
-Commons pom
+# commons-dependencies
+Commons dependencies
