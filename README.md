@@ -1,2 +1,2 @@
-# commons-dependencies
-Commons dependencies
+# Commons dependencies
+Dependencies packages
