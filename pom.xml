@@ -49,6 +49,9 @@
         <!-- mybatis -->
         <mybatis.springboot-starter.version>2.1.4</mybatis.springboot-starter.version>
 
+        <!-- dozer -->
+        <dozer.version>6.5.2</dozer.version>
+
         <!-- lombok -->
         <lombok.version>1.18.12</lombok.version>
 
@@ -166,6 +169,13 @@
                 <version>${mybatis.springboot-starter.version}</version>
             </dependency>
 
+            <!-- dozer -->
+            <dependency>
+                <groupId>com.github.dozermapper</groupId>
+                <artifactId>dozer-spring-boot-starter</artifactId>
+                <version>${dozer.version}</version>
+            </dependency>
+
             <!-- junit -->
             <dependency>
                 <groupId>junit</groupId>
@@ -178,6 +188,49 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- meowu -->
+            <dependency>
+                <groupId>com.meowu.commons</groupId>
+                <artifactId>common</artifactId>
+                <version>${meowu.commons-common.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.commons</groupId>
+                <artifactId>entity</artifactId>
+                <version>${meowu.commons-entity.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.plugins</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${meowu.plugins-mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.plugins</groupId>
+                <artifactId>redis</artifactId>
+                <version>${meowu.plugins-redis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.account.portal</groupId>
+                <artifactId>client</artifactId>
+                <version>${meowu.account-client.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.homunculus.portal</groupId>
+                <artifactId>client</artifactId>
+                <version>${meowu.homunculus-client.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.support.portal</groupId>
+                <artifactId>client</artifactId>
+                <version>${meowu.support-client.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
