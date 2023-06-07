@@ -1,2 +1,2 @@
-# plugins-pom
-Plugins pom
+# commons-pom
+Commons pom
