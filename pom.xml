@@ -59,13 +59,6 @@
         <junit.version>4.13.2</junit.version>
 
         <!-- meowu -->
-        <meowu.commons-common.version>0.0.1</meowu.commons-common.version>
-        <meowu.commons-entity.version>0.0.1</meowu.commons-entity.version>
-        <meowu.plugins-mybatis.version>0.0.1</meowu.plugins-mybatis.version>
-        <meowu.plugins-redis.version>0.0.1</meowu.plugins-redis.version>
-        <meowu.account-client.version>0.0.1</meowu.account-client.version>
-        <meowu.homunculus-client.version>0.0.1</meowu.homunculus-client.version>
-        <meowu.support-client.version>0.0.1</meowu.support-client.version>
     </properties>
 
     <dependencyManagement>
@@ -191,47 +184,6 @@
             </dependency>
 
             <!-- meowu -->
-            <dependency>
-                <groupId>com.meowu.commons</groupId>
-                <artifactId>common</artifactId>
-                <version>${meowu.commons-common.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.commons</groupId>
-                <artifactId>entity</artifactId>
-                <version>${meowu.commons-entity.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.plugins</groupId>
-                <artifactId>mybatis</artifactId>
-                <version>${meowu.plugins-mybatis.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.plugins</groupId>
-                <artifactId>redis</artifactId>
-                <version>${meowu.plugins-redis.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.account.portal</groupId>
-                <artifactId>client</artifactId>
-                <version>${meowu.account-client.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.homunculus.portal</groupId>
-                <artifactId>client</artifactId>
-                <version>${meowu.homunculus-client.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.meowu.support.portal</groupId>
-                <artifactId>client</artifactId>
-                <version>${meowu.support-client.version}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 

@@ -1,2 +1,2 @@
 # Commons dependencies
-Dependencies packages
+Dependencies pom
