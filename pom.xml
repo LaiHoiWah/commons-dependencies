@@ -62,6 +62,8 @@
         <meowu.commons-common.version>0.0.1</meowu.commons-common.version>
         <meowu.commons-codec.version>0.0.1</meowu.commons-codec.version>
         <meowu.commons-domain.version>0.0.1</meowu.commons-domain.version>
+        <meowu.commons-mybatis.version>0.0.1</meowu.commons-mybatis.version>
+        <meowu.support-portal-client.version>0.0.1</meowu.support-portal-client.version>
     </properties>
 
     <dependencyManagement>
@@ -203,6 +205,18 @@
                 <groupId>com.meowu.commons</groupId>
                 <artifactId>domain</artifactId>
                 <version>${meowu.commons-domain.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.commons</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${meowu.commons-mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.meowu.support.portal</groupId>
+                <artifactId>client</artifactId>
+                <version>${meowu.support-portal-client.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
